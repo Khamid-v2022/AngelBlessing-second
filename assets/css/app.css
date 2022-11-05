@@ -1,0 +1,76 @@
+body {
+    margin:  0;
+}
+
+@font-face {
+    font-family: 'Dancing Script Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Dancing Script Regular'), url('DancingScript-Regular.woff') format('woff');
+}
+    
+
+@font-face {
+    font-family: 'Dancing Script';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Dancing Script Bold'), url('DancingScript-Bold.woff') format('woff');
+}
+
+
+.menu-section {
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 50%);
+}
+
+.menu-section .navbar, .menu-section .navbar .navbar-brand {
+    padding:  0;
+}
+.menu-section .navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-section .navbar .nav-item {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.main {
+    background-image: url(../img/second_bg.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+
+.card-section .flip-box:nth-child(2), 
+.card-section .flip-box:nth-child(5), 
+.card-section .flip-box:nth-child(8) {
+    margin-top: 180px;
+}
+
+.flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.flip-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 10px 0;
+    transition: all .2s ease-in-out;
+}
+
+a.color-btn:hover .flip-container img {
+    transform: scale(1.2);
+}
+
+.footer {
+    background-color: #01BEF0;
+    color: white;
+    padding:  16px!important;
+}
