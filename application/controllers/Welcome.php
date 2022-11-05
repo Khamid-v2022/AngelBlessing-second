@@ -6,7 +6,7 @@ class Welcome extends CI_Controller {
     public function __construct()
     {
         parent::__construct();
-        $this->load->model('wecome_m');
+        $this->load->model('welcome_m');
     }
 
     public function index()
@@ -18,6 +18,15 @@ class Welcome extends CI_Controller {
    
     public function random_article($color){
         // echo $color;
-        $this->wecome_m->get_wp_posts($color);
+        $posts = $this->wecome_m->get_wp_posts($color);
+
+        $count = count($posts);
+        $index = rand(0, $count - 1);
+        $post = $posts[$index];
+
+        $url_components = parse_url($post['guid']);
+        $url = $url_components['scheme'] . "://" . $url_components['host'] . $post['permalink'];
+    
+        redirect($url);
     }
 }

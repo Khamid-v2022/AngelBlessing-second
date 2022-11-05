@@ -48,6 +48,15 @@ body {
     margin-top: 180px;
 }
 
+@media (max-width: 767px){
+    .card-section .flip-box:nth-child(2), 
+    .card-section .flip-box:nth-child(5), 
+    .card-section .flip-box:nth-child(8)  {
+        margin-top: 0;
+    } 
+}
+
+
 .flip-box-inner {
     position: relative;
     width: 100%;
@@ -74,3 +83,4 @@ a.color-btn:hover .flip-container img {
     color: white;
     padding:  16px!important;
 }
+
