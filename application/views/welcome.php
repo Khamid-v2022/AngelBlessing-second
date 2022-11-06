@@ -2,7 +2,7 @@
     <section class="menu-section">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light">
-              <a class="navbar-brand" href="#">
+              <a class="navbar-brand" href="https://www.askangelblessing.com">
                   <img width="125" height="125" src="<?=base_url()?>assets/img/logo.png" alt="">
               </a>
               <div class="menu-item-wrapper">
@@ -28,7 +28,28 @@
             </nav>
         </div>
     </section>
-    
+
+    <section class="intro">
+       <div class="name_part">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-xl-12">
+                        <div class="bordlanogelpart">
+                            <div class="Guardvare Guardvare_1">
+                                <p>Reveal Your Angel's Guidance Message Today!</p>
+                            </div>
+                            <div class="reveal_img">
+                                <a href="#card-section" class="d-block action-btn">
+                                   Choose Your Angel Color Door Below
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>                
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="main">
         <div class="container">  
             <div class="google-ads-place">
@@ -46,7 +67,7 @@
                 </script>
             </div>
 
-            <div class="card-section">
+            <div class="card-section" id="card-section">
                 <div class="row d-flex align-items-center justify-content-center my-5">
                     <div class="flip-box col-md-4 col-6">
                         <a type="button" class="color-btn" img-color="Red">
