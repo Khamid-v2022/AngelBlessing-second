@@ -25,9 +25,14 @@ body {
 .menu-section .navbar, .menu-section .navbar .navbar-brand {
     padding:  0;
 }
+.menu-section .navbar-expand-lg .navbar-collapse {
+    text-align: right;
+    justify-content: end;
+}
 .menu-section .navbar {
     display: flex;
     justify-content: space-between;
+    background-color: white!important
 }
 
 .menu-section .navbar .nav-item {
@@ -59,11 +64,11 @@ body {
 .intro {
     text-align: center;
     padding: 20px 0;
-    background-image: url(../img/white.png);
+    background-image: url(../img/white.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    min-height: 700px;
+    min-height: 300px;
     display: table;
     width: 100%;
 }
@@ -96,6 +101,15 @@ body {
     .card-section .flip-box:nth-child(8)  {
         margin-top: 0;
     } 
+    .Guardvare p {
+        font-size:  30px;
+
+    }
+    .action-btn {
+        font-size: 12px;
+        margin: 30px auto;
+        padding:  8px 12px;
+    }
 }
 
 
