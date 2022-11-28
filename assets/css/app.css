@@ -215,3 +215,114 @@ p.magic-bx-sbheading {
     border: 3px solid #85e5fe;
     cursor: pointer;
 }
+
+/*angel message page*/
+.angel-message {
+    font-family: Lora, serif;
+}
+
+.angel-message p {
+    font-size: 20px;
+}
+
+.angel-message .image img {
+    height: 280px;
+    transition: all .2s ease-in-out;
+}
+
+.angel-message .image img:hover {
+/*     transform: scale(1.2);*/
+}
+
+.angel-message .message-intro {
+    padding: 60px 0;
+    background: #85d3ff;
+}
+
+.angel-message .message-intro .image {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.angel-message .message-intro .intro .btn {
+    text-transform: uppercase;
+}
+
+.angel-message .btn-rev {
+    padding: 16px 40px;
+    border-radius: 50px;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+} 
+
+.angel-message .angels-category {
+    padding: 60px 0;
+}
+
+.angel-message h3, .angel-message h4 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+
+
+
+
+.angel-message .angels-category .angels {
+    max-width: 870px;
+    padding: 20px 0;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.angel-message .angel-icon{
+    width: 200px;
+    padding: 0 10px;
+    display: inline;
+    margin-bottom: 20px;
+    transition: all .2s ease-in-out;
+}
+
+a.archangel-post-btn:hover .angel-icon{
+    transform: scale(1.2);
+}
+
+.angel-message .popular-article {
+    background: #6495ed;
+    padding: 60px 0;
+}
+.angel-message .popular-article h3 {
+    color: white;
+}
+.angel-message .popular-article .col-md-4 .box {
+    height: 100%;
+}
+.angel-message .popular-article .col-md-4 .box .image {
+    padding: 10px;
+    background: #fff;
+    border-radius: 4px 4px 0 0;
+}
+
+.angel-message .popular-article .col-md-4 .box .text {
+    background-color: #01BEF0;
+    padding: 10px;
+    border-radius: 0 0 4px 4px;
+}
+.angel-message .popular-article .col-md-4 .box .text a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/*Birth Number bage*/
+.birth-number .flip-box {
+    margin-top: 30px!important;
+
+}

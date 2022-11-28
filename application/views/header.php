@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name='viewport' content='width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no'>
-  <title>Angel's Guidance Message</title>
+  
   
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="icon" href="<?=base_url()?>assets/img/favicon.ico" sizes="32x32">
@@ -19,4 +19,3 @@
   <script type="text/javascript">
     var site_url = "<?=site_url()?>";
   </script>
-</head>
