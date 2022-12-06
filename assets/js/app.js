@@ -17,10 +17,9 @@ $(function() {
 
     $(".quiz-btn").on('click', function(){
         const topic_category = $(this).attr("data-topic");
-        const title = $(this).attr("data-title");
-        $("#topic_title").val(title);
-        $("#topic_category").val(topic_category);
-        $("#quiz-form").submit();
+        let title = $(this).attr("data-title");
+        var _url = site_url + "LoveQuiz/tarot_card/" + topic_category + "/" + title.replace(/\s/g, '-');
+        location.href = _url;
     })
 
 

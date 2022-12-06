@@ -101,7 +101,7 @@
                     <p class="p-text color-white" id="cardDescription">
                         The Ace of Pentacles depicts a hand emerging from the clouds, not dissimilar to the Aces in other suits. A large coin sits comfortable in the palm of this hand. It is up for grabs for the first person who wants to take it. This symbols a brand new opportunity surrounding wealth, career or finances is about to take hold.
                     </p>
-                    <a href="" class="cta-button w-button" id="cardLink" target="_black">READ MORE</a>
+                    <a href="" class="cta-button w-button" id="cardLink">READ MORE</a>
                 </div>
             </div>
             <div class="reveal-card-wrapper text-center" id="reveal_card_no" style="display:none">

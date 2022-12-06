@@ -49,9 +49,7 @@
                 <h1>Pick A Question And Find Out The Answer</h1>
             </div>
             <div class="">
-                <form id="quiz-form" method="POST" action="<?=site_url()?>LoveQuiz/tarot_card">
-                    <input type="hidden" id="topic_title" name="topic_title" value="">
-                    <input type="hidden" id="topic_category" name="topic_category" value="">
+                <form id="quiz-form">
                     <div class="row d-flex align-items-center justify-content-center my-5">
                         <div class="flip-box col-md-4 col-6">
                             <a href="javascript:;" class="quiz-btn " data-topic="Love-Confession" data-title="Love confession: go for it?">
@@ -140,7 +138,7 @@
                             </a>
                         </div>   
                         <div class="flip-box col-md-4 col-6">
-                            <a href="javascript:;" class="quiz-btn " data-topic="Any-Hope" data-title="">
+                            <a href="javascript:;" class="quiz-btn " data-topic="Any-Hope" data-title="Any hope for this relationship?">
                                 <div class="flip-container flip-box-inner">
                                     <div class="flip-box-front">
                                         <img src="<?=base_url()?>assets/img/love-quiz/Any-Hope.jpg" >

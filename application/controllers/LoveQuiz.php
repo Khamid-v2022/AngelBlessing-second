@@ -16,10 +16,11 @@ class LoveQuiz extends CI_Controller {
         $this->load->view('footer');
     }
 
-    public function tarot_card(){
-        $request = $this->input->post();
+    public function tarot_card($topic_category, $title){
+        $data['topic_category'] = $topic_category;
+        $data['topic_title'] = str_replace("-"," ", $title);
         $this->load->view('header');
-        $this->load->view('tarot-card', $request);
+        $this->load->view('tarot-card', $data);
         $this->load->view('footer');
     }
 
