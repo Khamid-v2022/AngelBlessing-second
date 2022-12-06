@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class AngelBirthNumber extends CI_Controller {
+class AngelBirthMonth extends CI_Controller {
 
     public function __construct()
     {
@@ -11,7 +11,7 @@ class AngelBirthNumber extends CI_Controller {
     public function index()
     {
         $this->load->view('header');
-        $this->load->view('angelbirthnumber');
+        $this->load->view('angelbirthmonth');
         $this->load->view('footer');
     }
 
