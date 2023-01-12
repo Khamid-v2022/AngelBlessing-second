@@ -39,7 +39,11 @@ $(function() {
                     $("#cardLink").attr("href", resp.message.url);
 
                     $(".select-card-container").css("display", "none");
-                    $("#reveal_card").css("display", "flex");
+                    var viewport_width = document.documentElement.clientWidth;
+                    if(viewport_width <= 768)
+                        $("#reveal_card").css("display", "block");
+                    else 
+                        $("#reveal_card").css("display", "flex");
                     
                 } else {
                     $(".select-card-container").css("display", "none");

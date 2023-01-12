@@ -75,7 +75,7 @@
                 <div class="row">
                     <div class="col-md-5">
                         <div class="image">
-                            <img src="<?=base_url()?>assets/img/angel-back.png" alt="Angel Intro" loading="lazy">
+                            <img src="<?=base_url()?>assets/img/archangeldailymessage.jpg" alt="Angel Intro" loading="lazy">
                         </div>
                     </div>
                     <div class="col-md-7">

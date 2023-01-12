@@ -512,17 +512,13 @@ a.archangel-post-btn:hover .angel-icon{
 }
 
 .tarot-page .reveal-card-wrapper .reveal-card {
-    width: 170px;
-    min-width: 170px;
     height: 280px;
 }
 .tarot-page .reveal-card-wrapper .reveal-card img {
-       width: 100%;
     height: 100%;
 }
 
 .tarot-page .reveal-card-wrapper .reveal-text-wrapper {
-    margin-left: 30px;
     text-align: center;
 }
 

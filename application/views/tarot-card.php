@@ -91,7 +91,7 @@
                     </a>
                 </div>
             </div>
-            <div class="reveal-card-wrapper" id="reveal_card" style="display:none">
+            <div class="reveal-card-wrapper" id="reveal_card">
                 <div class="reveal-card">
                     <img src="<?=base_url()?>assets/img/card_face-down.png" id="reveal_card_img">
                 </div>
