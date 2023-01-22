@@ -206,6 +206,10 @@ class Welcome_m extends CI_Model
  		$result = $this->db->query($query);
 		return $result->result_array();
 	}
+
+	public function getFortunCookieMessages(){
+		return $this->db->get('fortune_messages')->result_array();
+	}
 }
 
 ?>
