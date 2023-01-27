@@ -551,3 +551,47 @@ a.archangel-post-btn:hover .angel-icon{
     font-weight: 800;
     text-decoration: none
 }
+
+
+/*daily horoscope*/
+.horoscope-wrapper {
+    border-color: #36013f;
+    border-top: 6px solid;
+    margin: 0 0 24px;
+    padding: 24px;
+    background: #fff;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 1px 3px rgb(0 0 0 / 10%);
+    box-shadow: 0 1px 3px rgb(0 0 0 / 10%);
+    max-width: 100%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.daily-horoscope .horoscope-icon {
+    width: 200px;
+    padding: 0 10px;
+    display: inline;
+    margin-bottom: 20px;
+    transition: all .2s ease-in-out;
+}
+
+.horoscope-btn.active {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+a.horoscope-btn:hover .horoscope-icon{
+    transform: scale(1.2);
+}
+
+
+#sel_date {
+    color: rgba(0,0,0,.5);
+}
+
+.form-label {
+    font-weight: 600;
+    min-width: 120px;
+}
