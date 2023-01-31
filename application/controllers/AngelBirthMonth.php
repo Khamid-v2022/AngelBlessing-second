@@ -10,7 +10,8 @@ class AngelBirthMonth extends CI_Controller {
 
     public function index()
     {
-        $this->load->view('header');
+        $data['title'] = "Your Birthday Date Meaning.";
+        $this->load->view('header', $data);
         $this->load->view('angelbirthmonth');
         $this->load->view('footer');
     }

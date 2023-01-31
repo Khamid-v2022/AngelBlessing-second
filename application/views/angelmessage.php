@@ -1,35 +1,3 @@
-    <title>Daily Angel Message</title>
-</head>
-<body class="angel-message">
-    <section class="menu-section">
-        <div class="container">
-            <nav class="navbar navbar-expand-lg bg-light">
-                <a class="navbar-brand" href="https://www.askangelblessing.com">
-                    <img width="125" height="125" src="<?=base_url()?>assets/img/logo.png" alt="">
-                </a>
-               
-                <div class="menu-item-wrapper">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mr-auto">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="https://www.askangelblessing.com/">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="https://www.askangelblessing.com/privacy-policy/">Privacy Policy</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="https://www.askangelblessing.com/about-us/">About Us</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </section>
-
     <section class="">
         <div class="container">  
             <div class="google-ads-place">

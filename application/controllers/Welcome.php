@@ -11,7 +11,8 @@ class Welcome extends CI_Controller {
 
     public function index()
     {
-        $this->load->view('header');
+        $data['title'] = "Angel Color Doors";
+        $this->load->view('header', $data);
         $this->load->view('welcome');
         $this->load->view('footer');
     }

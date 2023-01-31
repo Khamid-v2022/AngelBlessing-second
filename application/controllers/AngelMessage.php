@@ -34,7 +34,9 @@ class AngelMessage extends CI_Controller {
         }
 
         $data['random_posts'] = $result_posts;
-        $this->load->view('header');
+
+        $data['title'] = "Daily Angel Message";
+        $this->load->view('header', $data);
         $this->load->view('angelmessage', $data);
         $this->load->view('footer');
     }
@@ -54,7 +56,8 @@ class AngelMessage extends CI_Controller {
 
     public function angels()
     {
-        $this->load->view('header');
+        $data['title'] = "Daily Angel Message";
+        $this->load->view('header', $data);
         $this->load->view('angelmessage-angels');
         $this->load->view('footer');
     }

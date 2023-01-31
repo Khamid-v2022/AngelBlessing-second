@@ -11,7 +11,8 @@ class AngelNumber extends CI_Controller {
 
     public function index()
     {
-        $this->load->view('header');
+        $data['title'] = "Angel's Guidance Message";
+        $this->load->view('header', $data);
         $this->load->view('angelnumber');
         $this->load->view('footer');
     }

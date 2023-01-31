@@ -11,7 +11,8 @@ class LoveQuiz extends CI_Controller {
 
     public function index()
     {
-        $this->load->view('header');
+        $data['title'] = "Get Your Romantic Advise Now";
+        $this->load->view('header', $data);
         $this->load->view('lovequiz');
         $this->load->view('footer');
     }
@@ -19,6 +20,7 @@ class LoveQuiz extends CI_Controller {
     public function tarot_card($topic_category, $title){
         $data['topic_category'] = $topic_category;
         $data['topic_title'] = str_replace("-"," ", $title);
+        $data['title'] = "Get Your Romantic Advise Now";
         $this->load->view('header');
         $this->load->view('tarot-card', $data);
         $this->load->view('footer');
