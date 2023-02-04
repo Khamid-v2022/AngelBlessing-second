@@ -23,26 +23,42 @@
 
   <section class="window-menu d-none d-xl-block">
     <div class="d-flex justify-content-center">          
-      <a href="https://angelgraceblessing.com"><img width="150" src="<?=base_url()?>assets/img/logo.png" alt=""></a>
+      <a href="https://askangelblessing.com"><img width="150" src="<?=base_url()?>assets/img/logo.png" alt=""></a>
     </div>
     <nav class="navbar">
       <ul class="nav navbar-nav">
         <!-- <li class="nav-item"><a href="https://askangelblessing.com">Home</a></li> -->
-        <li class="nav-item <?=$title=='Angel Color Doors'?'active':''?>"><a href="https://www.askangelblessing.com/angel-color-door">Angel Color Doors</a></li>
-        <li class="nav-item <?=$title=='Angel\'s Guidance Message'?'active':''?>"><a href="https://www.askangelblessing.com/angel-color-door/angel-number">Angel Numbers</a></li>
-        <li class="nav-item <?=$title=='Your Birthday Date Meaning.'?'active':''?>"><a href="https://www.askangelblessing.com/angel/angel-birth-month">Birth Month</a></li>
-        <li class="nav-item <?=$title=='Your Birthday Date Meaning'?'active':''?>"><a href="https://askangelblessing.com/angel/angel-birth-number">Birth Number</a></li>
-        <li class="nav-item <?=$title=='Daily Angel Message'?'active':''?>"><a href="https://askangelblessing.com/angel/angel-message">Daily Angel Message</a></li>
-        <li class="nav-item <?=$title=='Get Your Romantic Advise Now'?'active':''?>"><a href="https://www.askangelblessing.com/angel/love-quiz">Your Love Status</a></li>
-        <li class="nav-item"><a href="https://www.askangelblessing.com/fortune-cookie">Fortune Cookie</a></li>
-        <li class="nav-item <?=$title=='Daily Horoscope'?'active':''?>"><a href="https://www.askangelblessing.com/angel/daily-horoscope">Daily Horoscope</a></li>
+        <li class="nav-item <?=$title=='Angel Color Doors'?'active':''?>"><a class="nav-link" href="https://www.askangelblessing.com/angel-color-door">Angel Color Doors</a></li>
+        <li class="nav-item <?=$title=='Angel\'s Guidance Message'?'active':''?>">
+          <a class="nav-link" href="https://www.askangelblessing.com/angel-color-door/angel-number">Angel Numbers</a></li>
+        
+        <li class="nav-item dropdown <?=$title=='Your Birthday Date Meaning.' || $title=='Your Birthday Date Meaning' ? 'active':''?>">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Birthday Date Meaning
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item <?=$title=='Your Birthday Date Meaning.'?'active':''?>" href="https://www.askangelblessing.com/angel/angel-birth-month">Birth Month</a></li>
+            <li ><a class="dropdown-item <?=$title=='Your Birthday Date Meaning'?'active':''?>" href="https://askangelblessing.com/angel/angel-birth-number">Birth Number</a></li>
+          </ul>
+        </li>
+       <!--  <li class="nav-item <?=$title=='Your Birthday Date Meaning.'?'active':''?>">
+          <a href="https://www.askangelblessing.com/angel/angel-birth-month">Birth Month</a>
+        </li>
+        <li class="nav-item <?=$title=='Your Birthday Date Meaning'?'active':''?>">
+          <a href="https://askangelblessing.com/angel/angel-birth-number">Birth Number</a>
+        </li> -->
+        
+        <li class="nav-item <?=$title=='Daily Angel Message'?'active':''?>"><a class="nav-link" href="https://askangelblessing.com/angel/angel-message">Daily Angel Message</a></li>
+        <li class="nav-item <?=$title=='Get Your Romantic Advise Now'?'active':''?>"><a  class="nav-link" href="https://www.askangelblessing.com/angel/love-quiz">Your Love Status</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://www.askangelblessing.com/fortune-cookie">Fortune Cookie</a></li>
+        <li class="nav-item <?=$title=='Daily Horoscope'?'active':''?>"><a class="nav-link" href="https://www.askangelblessing.com/angel/daily-horoscope">Daily Horoscope</a></li>
       </ul>
     </nav>
   </section>
   <section class="mobile-menu d-xl-none">
     <nav class="navbar navbar-expand-xl navbar-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="https://angelgraceblessing.com"><img class="brand-img" src="<?=base_url()?>assets/img/logo.png" alt=""></a>
+        <a class="navbar-brand" href="https://askangelblessing.com"><img class="brand-img" src="<?=base_url()?>assets/img/logo.png" alt=""></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
