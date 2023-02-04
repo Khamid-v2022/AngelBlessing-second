@@ -665,3 +665,39 @@ a.horoscope-btn:hover .horoscope-icon{
     font-weight: 600;
     min-width: 120px;
 }
+
+
+/* Crystal Ball page */
+
+.dancing-header {
+    font-family: Dancing Script;
+    color: #01BEF0;
+    font-size: 54px;
+}
+
+.main.crystal-ball {
+    background-image: url(../img/new_sky.webp);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    /* min-height: 100vh; */
+}
+.crystal-ball-wrapper {
+    box-shadow: 0 0 8px #fff;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid #483c3c38;
+    padding: 100px 50px;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+.crystal-item-img {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.crystal-item-img:hover {
+   transform: scale(1.1);
+}

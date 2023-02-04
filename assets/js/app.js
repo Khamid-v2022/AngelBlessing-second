@@ -53,5 +53,11 @@ $(function() {
 
         })
     })
+
+    $(".crystal-item-img").on("click", function(){
+        const category_name = $(this).attr("data-catetory_name");
+        var _url = site_url + "CrystalBall/random_article/" + category_name;
+        location.href = _url;
+    })
    
 });
