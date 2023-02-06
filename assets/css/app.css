@@ -17,8 +17,6 @@ body {
     src: local('Dancing Script Bold'), url('DancingScript-Bold.woff') format('woff');
 }
 
-
-
 /* Nav bar Menu */
 .navbar-nav .dropdown-menu {
     position: absolute;
@@ -38,9 +36,14 @@ body {
 .mobile-menu .navbar-light .navbar-nav .nav-link {
     color: #494c4f;
     font-weight: 600;
+    padding: 6px 0;
 }
 
 .mobile-menu .navbar-light .navbar-nav .nav-link:hover {
+    color: #01BEF0;
+}
+
+.mobile-menu .navbar-light .navbar-nav .nav-item.active .nav-link{
     color: #01BEF0;
 }
 

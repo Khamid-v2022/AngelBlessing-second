@@ -28,10 +28,6 @@
     <nav class="navbar">
       <ul class="nav navbar-nav">
         <!-- <li class="nav-item"><a href="https://askangelblessing.com">Home</a></li> -->
-        <li class="nav-item <?=$title=='Angel Color Doors'?'active':''?>"><a class="nav-link" href="https://www.askangelblessing.com/angel-color-door">Angel Color Doors</a></li>
-        <li class="nav-item <?=$title=='Angel\'s Guidance Message'?'active':''?>">
-          <a class="nav-link" href="https://www.askangelblessing.com/angel-color-door/angel-number">Angel Numbers</a></li>
-        
         <li class="nav-item dropdown <?=$title=='Your Birthday Date Meaning.' || $title=='Your Birthday Date Meaning' ? 'active':''?>">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Birthday Date Meaning
@@ -40,18 +36,23 @@
             <li><a class="dropdown-item <?=$title=='Your Birthday Date Meaning.'?'active':''?>" href="https://www.askangelblessing.com/angel/angel-birth-month">Birth Month</a></li>
             <li ><a class="dropdown-item <?=$title=='Your Birthday Date Meaning'?'active':''?>" href="https://askangelblessing.com/angel/angel-birth-number">Birth Number</a></li>
           </ul>
-        </li>
-       <!--  <li class="nav-item <?=$title=='Your Birthday Date Meaning.'?'active':''?>">
-          <a href="https://www.askangelblessing.com/angel/angel-birth-month">Birth Month</a>
-        </li>
-        <li class="nav-item <?=$title=='Your Birthday Date Meaning'?'active':''?>">
-          <a href="https://askangelblessing.com/angel/angel-birth-number">Birth Number</a>
-        </li> -->
-        
-        <li class="nav-item <?=$title=='Daily Angel Message'?'active':''?>"><a class="nav-link" href="https://askangelblessing.com/angel/angel-message">Daily Angel Message</a></li>
+        </li> 
+
+        <li class="nav-item dropdown <?=$title=='Daily Angel Message' || $title=='Angel\'s Guidance Message' || $title=='Angel Color Doors' ? 'active':''?>">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Daily Angel Message
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item <?=$title=='Daily Angel Message'?'active':''?>" href="https://askangelblessing.com/angel/angel-message">Daily Angel Message</a></li>
+            <li ><a class="dropdown-item <?=$title=='Angel\'s Guidance Message'?'active':''?>" href="https://www.askangelblessing.com/angel-color-door/angel-number">Angel Numbers</a></li>
+            <li ><a class="dropdown-item <?=$title=='Angel Color Doors'?'active':''?>" href="https://www.askangelblessing.com/angel-color-door">Angel Color Doors</a></li>
+          </ul>
+        </li>    
+
         <li class="nav-item <?=$title=='Get Your Romantic Advise Now'?'active':''?>"><a  class="nav-link" href="https://www.askangelblessing.com/angel/love-quiz">Your Love Status</a></li>
         <li class="nav-item"><a class="nav-link" href="https://www.askangelblessing.com/fortune-cookie">Fortune Cookie</a></li>
         <li class="nav-item <?=$title=='Daily Horoscope'?'active':''?>"><a class="nav-link" href="https://www.askangelblessing.com/angel/daily-horoscope">Daily Horoscope</a></li>
+        <li class="nav-item <?=$title=='Crystal Ball Reading'?'active':''?>"><a class="nav-link" href="https://www.askangelblessing.com/angel/crystal-ball">Crystal Ball Reading</a></li>
       </ul>
     </nav>
   </section>
@@ -67,29 +68,32 @@
             <!-- <li class="nav-item">
               <a class="nav-link" aria-current="page" href="https://askangelblessing.com/angel/angelMessage">Home</a>
             </li> -->
-            <li class="nav-item">
+            <li class="nav-item <?=$title=='Angel Color Doors'?'active':''?>">
               <a class="nav-link" href="https://www.askangelblessing.com/angel-color-door">Angel Color Doors</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item <?=$title=='Angel\'s Guidance Message'?'active':''?>">
               <a class="nav-link" href="https://www.askangelblessing.com/angel-color-door/angel-number">Angel Numbers</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item <?=$title=='Your Birthday Date Meaning.'?'active':''?>">
               <a class="nav-link" href="https://www.askangelblessing.com/angel/angel-birth-month">Birth Month</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item <?=$title=='Your Birthday Date Meaning'?'active':''?>">
               <a class="nav-link" href="https://askangelblessing.com/angel/angel-birth-number">Birth Number</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item <?=$title=='Daily Angel Message'?'active':''?>">
               <a class="nav-link" href="https://askangelblessing.com/angel/angel-message">Daily Angel Message</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item <?=$title=='Get Your Romantic Advise Now'?'active':''?>">
               <a class="nav-link" href="https://www.askangelblessing.com/angel/LoveQuiz">Your Love Status</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="https://www.askangelblessing.com/fortune-cookie">Fortune Cookie</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item <?=$title=='Daily Horoscope'?'active':''?>">
               <a class="nav-link" href="https://www.askangelblessing.com/angel/daily-horoscope">Daily Horoscope</a>
+            </li>
+            <li class="nav-item <?=$title=='Crystal Ball Reading'?'active':''?>">
+              <a class="nav-link" href="https://www.askangelblessing.com/angel/crystal-ball">Crystal Ball Reading</a>
             </li>
           </ul>
         </div>
