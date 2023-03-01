@@ -712,7 +712,6 @@ a.horoscope-btn:hover .horoscope-icon{
    transform: scale(1.1);
 }
 
-
 /* Story of Angel page*/
 .story-angel .article-box {
     padding: 20px;
@@ -730,3 +729,27 @@ a.horoscope-btn:hover .horoscope-icon{
 .story-angel .article-box a .article-title{
     color: black;
 }
+
+/* Essential Oils page */
+
+.essential-oils .article-box a{
+    text-decoration: none;
+}
+
+.essential-oils .article-title-wrapper {
+    /*background-color: white;*/
+    padding: 5px 10px;
+    color: black;
+}
+
+.essential-oils .article-box:hover .article-title-wrapper {
+    background-color: rgba(00, 204, 255);
+}
+
+
+
+
+
+
+
+
