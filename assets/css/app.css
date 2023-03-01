@@ -711,3 +711,22 @@ a.horoscope-btn:hover .horoscope-icon{
 .crystal-item-img:hover {
    transform: scale(1.1);
 }
+
+
+/* Story of Angel page*/
+.story-angel .article-box {
+    padding: 20px;
+    transition: all .2s ease-in-out;
+}
+
+.story-angel .article-box:hover {
+   transform: scale(1.1);
+}
+
+.story-angel .article-box a{
+    text-decoration: none;
+}
+
+.story-angel .article-box a .article-title{
+    color: black;
+}

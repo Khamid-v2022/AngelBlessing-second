@@ -14,6 +14,8 @@
 
   <script type="text/javascript" src="<?=base_url()?>assets/plugin/js/jquery.min.js"></script>
 
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6130278165783644" crossorigin="anonymous"></script>
+
   <link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/css/app.css">
   <script type="text/javascript" src="<?=base_url()?>assets/js/app.js"></script>
   <script type="text/javascript">
