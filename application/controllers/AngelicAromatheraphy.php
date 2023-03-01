@@ -11,9 +11,9 @@ class AngelicAromatheraphy extends CI_Controller {
 
     public function index()
     {
-        $posts = $this->welcome_m->get_wp_posts_with_image("Angelic Aromatheraphy");
+        $posts = $this->welcome_m->get_wp_posts_with_image("Angelic Aromatherapy");
         $show_posts = [];
-        // pick random 3 posts
+        // pick random 6 posts
         if(count($posts) <= 6){
             $show_posts = $posts;
         }
@@ -40,7 +40,7 @@ class AngelicAromatheraphy extends CI_Controller {
 
         $data['title'] = "Choose Your Angelic Aromatheraphy Today";
         $this->load->view('header', $data);
-        $this->load->view('story_angel', $data);
+        $this->load->view('angelic_aromatheraphy', $data);
         $this->load->view('footer');
     }
     
