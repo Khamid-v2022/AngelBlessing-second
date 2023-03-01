@@ -60,4 +60,9 @@ $(function() {
         location.href = _url;
     })
    
+
+    $(".symbol-card-item").on("click", function(){
+        var _url = site_url + "AngelicSymbols/random_article";
+        location.href = _url;
+    })
 });

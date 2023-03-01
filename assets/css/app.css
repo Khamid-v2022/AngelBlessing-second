@@ -755,7 +755,19 @@ a.horoscope-btn:hover .horoscope-icon{
     overflow: hidden;
 }
 
+/* angelic symbols page */
+.angelic-symbols .card-wrapper {
+    max-width: 800px;
+    margin: 20px auto;
+}
+.angelic-symbols .symbol-card-item img {
+    width: 100%;
+    transition: all .2s ease-in-out;
+}
 
+.angelic-symbols .symbol-card-item img:hover {
+   transform: scale(1.1);
+}
 
 
 
