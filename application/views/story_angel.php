@@ -23,10 +23,10 @@
                         <div class="col-md-4 col-sm-6">
                             <div class="article-box">
                                 <a href="<?=$post['url']?>">
-                                   <div class="image">
-                                       <img src="<?=$post['image_path']?>" alt="" style="width: 100%; object-fit: fill" loading="lazy">
+                                   <div class="image text-center">
+                                       <img src="<?=$post['image_path']?>" alt="" style="height: 100%; object-fit: fill" loading="lazy">
                                    </div>
-                                    <div class="text-center">
+                                    <div class="text-center ">
                                        <h5 class="article-title"><?=$post['title']?></h5>
                                     </div>
                                 </a>

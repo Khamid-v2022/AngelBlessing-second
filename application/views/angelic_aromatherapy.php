@@ -15,7 +15,7 @@
         
             <section class="popular-article">
                 <div class="text-center my-4">
-                    <h2>Choose Your Angelic Aromatheraphy Today</h2>
+                    <h2>Choose Your Angelic Aromatherapy Today</h2>
                 </div>
                 <div class="row">
                     <?php 

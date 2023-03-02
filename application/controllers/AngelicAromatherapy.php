@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class AngelicAromatheraphy extends CI_Controller {
+class AngelicAromatherapy extends CI_Controller {
 
     public function __construct()
     {
@@ -38,9 +38,9 @@ class AngelicAromatheraphy extends CI_Controller {
 
         $data['random_posts'] = $result_posts;
 
-        $data['title'] = "Choose Your Angelic Aromatheraphy Today";
+        $data['title'] = "Choose Your Angelic Aromatherapy Today";
         $this->load->view('header', $data);
-        $this->load->view('angelic_aromatheraphy', $data);
+        $this->load->view('angelic_aromatherapy', $data);
         $this->load->view('footer');
     }
     

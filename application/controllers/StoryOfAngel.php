@@ -13,18 +13,20 @@ class StoryOfAngel extends CI_Controller {
     {
         $posts = $this->Welcome_m->get_wp_posts_with_image("Stories of Angels");
         $show_posts = [];
-        // pick random 3 posts
-        if(count($posts) <= 6){
+        if(count($posts) <= 9){
             $show_posts = $posts;
         }
         else {
-            $rand_keys = array_rand($posts, 6);
+            $rand_keys = array_rand($posts, 9);
             array_push($show_posts, $posts[$rand_keys[0]]);
             array_push($show_posts, $posts[$rand_keys[1]]);
             array_push($show_posts, $posts[$rand_keys[2]]);
             array_push($show_posts, $posts[$rand_keys[3]]);
             array_push($show_posts, $posts[$rand_keys[4]]);
             array_push($show_posts, $posts[$rand_keys[5]]);
+            array_push($show_posts, $posts[$rand_keys[6]]);
+            array_push($show_posts, $posts[$rand_keys[7]]);
+            array_push($show_posts, $posts[$rand_keys[8]]);
         }
 
         $result_posts = [];
@@ -43,5 +45,4 @@ class StoryOfAngel extends CI_Controller {
         $this->load->view('story_angel', $data);
         $this->load->view('footer');
     }
-    
 }
