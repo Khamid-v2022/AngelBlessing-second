@@ -40,7 +40,16 @@
           </ul>
         </li> 
 
-        <li class="nav-item dropdown <?=$title=='Daily Angel Message' || $title=='Angel\'s Guidance Message' || $title=='Angel Color Doors' ? 'active':''?>">
+        <li class="nav-item dropdown 
+          <?=$title=='Daily Angel Message' 
+          || $title=='Angel\'s Guidance Message' 
+          || $title=='Angel Color Doors'
+          || $title=='Choose Your Angelic Aromatherapy Today'
+          || $title=='Angelic Symbols'
+          || $title=='Contact with Angels Using Essential Oils'
+          || $title=='Discover Your Stories of Angels' 
+          ? 'active':''?>
+        ">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Daily Angel Message
           </a>
@@ -48,6 +57,11 @@
             <li><a class="dropdown-item <?=$title=='Daily Angel Message'?'active':''?>" href="https://askangelblessing.com/angel/angel-message">Daily Angel Message</a></li>
             <li ><a class="dropdown-item <?=$title=='Angel\'s Guidance Message'?'active':''?>" href="https://www.askangelblessing.com/angel-color-door/angel-number">Angel Numbers</a></li>
             <li ><a class="dropdown-item <?=$title=='Angel Color Doors'?'active':''?>" href="https://www.askangelblessing.com/angel-color-door">Angel Color Doors</a></li>
+             
+            <li ><a class="dropdown-item <?=$title=='Choose Your Angelic Aromatherapy Today'?'active':''?>" href="https://askangelblessing.com/angel/angelic-aromatherapy">Angelic Aromatherapy</a></li>
+            <li ><a class="dropdown-item <?=$title=='Angelic Symbols'?'active':''?>" href="https://www.askangelblessing.com/angel/angelic-symbols">Angelic Symbols</a></li>
+            <li ><a class="dropdown-item <?=$title=='Contact with Angels Using Essential Oils'?'active':''?>" href="https://askangelblessing.com/angel/essential-oils">Angelic Essential Oils</a></li>
+            <li ><a class="dropdown-item <?=$title=='Discover Your Stories of Angels'?'active':''?>" href="https://askangelblessing.com/angel/story-angel">Stories of Angels</a></li>
           </ul>
         </li>    
 
@@ -85,6 +99,20 @@
             <li class="nav-item <?=$title=='Daily Angel Message'?'active':''?>">
               <a class="nav-link" href="https://askangelblessing.com/angel/angel-message">Daily Angel Message</a>
             </li>
+
+            <li class="nav-item <?=$title=='Choose Your Angelic Aromatherapy Today'?'active':''?>">
+              <a class="nav-link" href="https://askangelblessing.com/angel/angelic-aromatherapy">Angelic Aromatherapy</a>
+            </li>
+            <li class="nav-item <?=$title=='Angelic Symbols'?'active':''?>">
+              <a class="nav-link" href="https://askangelblessing.com/angel/angelic-symbols">Angelic Symbols</a>
+            </li>
+            <li class="nav-item <?=$title=='Contact with Angels Using Essential Oils'?'active':''?>">
+              <a class="nav-link" href="https://askangelblessing.com/angel/essential-oils">Angelic Essential Oils</a>
+            </li>
+            <li class="nav-item <?=$title=='Discover Your Stories of Angels'?'active':''?>">
+              <a class="nav-link" href="https://askangelblessing.com/angel/story-angel">Stories of Angels</a>
+            </li>
+
             <li class="nav-item <?=$title=='Get Your Romantic Advise Now'?'active':''?>">
               <a class="nav-link" href="https://www.askangelblessing.com/angel/LoveQuiz">Your Love Status</a>
             </li>
