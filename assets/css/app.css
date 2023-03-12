@@ -770,4 +770,43 @@ a.horoscope-btn:hover .horoscope-icon{
 }
 
 
+/* orders-angels */
 
+.orders-angels-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.orders-angels-wrapper .angel-item a {
+    text-decoration: none;
+    color: black;
+}
+.orders-angels-wrapper .angel-item img{
+    transition: all .2s ease-in-out;
+}
+.orders-angels-wrapper .angel-item img:hover{
+    transform: scale(1.1);
+}
+.orders-angels .angel-img {
+    width: 100%;
+    height: auto;
+}
+
+.orders-angels .angels-headline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+
+@media (max-width: 576px){
+    .orders-angels .angel-img {
+        max-width: 150px;
+    }
+}
+
+.angel-name {
+    font-size: 20px;
+    margin-top: 10px;
+}
