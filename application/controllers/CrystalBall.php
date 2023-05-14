@@ -18,6 +18,7 @@ class CrystalBall extends CI_Controller {
     }
 
     public function random_article($category_name){
+        $category_name = str_replace( "-2-", " ", $category_name);
         $posts = $this->welcome_m->get_wp_posts_with_category(urldecode($category_name));
         $count = count($posts);
         if($count == 0){

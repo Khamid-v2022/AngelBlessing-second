@@ -55,7 +55,8 @@ $(function() {
     })
 
     $(".crystal-item-img").on("click", function(){
-        const category_name = $(this).attr("data-catetory_name");
+        let category_name = $(this).attr("data-catetory_name");
+        category_name = category_name.replaceAll(' ', '-2-');
         var _url = site_url + "CrystalBall/random_article/" + category_name;
         location.href = _url;
     })
