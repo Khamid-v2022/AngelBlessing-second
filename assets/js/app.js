@@ -23,6 +23,13 @@ $(function() {
     })
 
 
+    $(".prayer-category-btn").on('click', function(){
+        let category = $(this).attr("data-category");
+        var _url = site_url + "PrayerMain/random_article/" + category.replace(/\s/g, '-');
+        location.href = _url;
+    })
+
+
     $(".select-card").on("click", function(){
 
         $.post( site_url + "LoveQuiz/getRandomPost", 

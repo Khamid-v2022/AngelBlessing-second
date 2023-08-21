@@ -1,4 +1,3 @@
-
     <div class="love-quiz">
 
         <section class="main">

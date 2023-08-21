@@ -41,7 +41,8 @@
         </li> 
 
         <li class="nav-item dropdown 
-          <?=$title=='Orders Angels' 
+          <?=$title=="Choose Your Prayer of The Day"
+          || $title=='Orders Angels' 
           || $title=='Daily Angel Message'
           || $title=='Angel\'s Guidance Message' 
           || $title=='Angel Color Doors'
@@ -57,6 +58,7 @@
             Daily Angel Message
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item <?=$title=='Choose Your Prayer of The Day'?'active':''?>" href="https://askangelblessing.com/angel/prayer-of-the-day">Prayer of The Day</a></li>
             <li><a class="dropdown-item <?=$title=='Orders Angels'?'active':''?>" href="https://askangelblessing.com/angel/orders-angels">Angel Orders</a></li>
             
             <li><a class="dropdown-item <?=$title=='Daily Angel Message'?'active':''?>" href="https://askangelblessing.com/angel/angel-message">Daily Angel Message</a></li>
@@ -107,6 +109,9 @@
             </li>
             <li class="nav-item <?=$title=='Daily Angel Message'?'active':''?>">
               <a class="nav-link" href="https://askangelblessing.com/angel/angel-message">Daily Angel Message</a>
+            </li>
+            <li class="nav-item <?=$title=='Choose Your Prayer of The Day'?'active':''?>">
+              <a class="nav-link" href="https://askangelblessing.com/angel/prayer-of-the-day">Prayer of The Day</a>
             </li>
             <li class="nav-item <?=$title=='Choose Your Angelic Aromatherapy Today'?'active':''?>">
               <a class="nav-link" href="https://askangelblessing.com/angel/angelic-aromatherapy">Angelic Aromatherapy</a>
