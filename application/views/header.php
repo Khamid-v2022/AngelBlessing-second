@@ -31,10 +31,10 @@
       <ul class="nav navbar-nav">
         <!-- <li class="nav-item"><a href="https://askangelblessing.com">Home</a></li> -->
         <li class="nav-item dropdown <?=$title=='Your Birthday Date Meaning.' || $title=='Your Birthday Date Meaning' ? 'active':''?>">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Birthday Date Meaning
           </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
             <li><a class="dropdown-item <?=$title=='Your Birthday Date Meaning.'?'active':''?>" href="https://www.askangelblessing.com/angel/angel-birth-month">Birth Month</a></li>
             <li ><a class="dropdown-item <?=$title=='Your Birthday Date Meaning'?'active':''?>" href="https://askangelblessing.com/angel/angel-birth-number">Birth Number</a></li>
           </ul>
@@ -54,10 +54,10 @@
           || $title=='Discover Your Stories of Angels' 
           ? 'active':''?>
         ">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Daily Angel Message
           </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
             <li><a class="dropdown-item <?=$title=='Choose Your Prayer of The Day'?'active':''?>" href="https://askangelblessing.com/angel/prayer-of-the-day">Prayer of The Day</a></li>
             <li><a class="dropdown-item <?=$title=='Orders Angels'?'active':''?>" href="https://askangelblessing.com/angel/orders-angels">Angel Orders</a></li>
             
@@ -75,7 +75,19 @@
 
         <li class="nav-item <?=$title=='Get Your Romantic Advise Now'?'active':''?>"><a  class="nav-link" href="https://www.askangelblessing.com/angel/love-quiz">Your Love Status</a></li>
         <li class="nav-item"><a class="nav-link" href="https://www.askangelblessing.com/fortune-cookie">Fortune Cookie</a></li>
-        <li class="nav-item <?=$title=='Daily Horoscope'?'active':''?>"><a class="nav-link" href="https://www.askangelblessing.com/angel/daily-horoscope">Daily Horoscope</a></li>
+
+        <!-- <li class="nav-item <?=$title=='Daily Horoscope'?'active':''?>"><a class="nav-link" href="https://www.askangelblessing.com/angel/daily-horoscope">Daily Horoscope</a></li> -->
+
+        <li class="nav-item dropdown <?=$title=='Daily Horoscope' ? 'active':''?>">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Daily Horoscope
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown3">
+            <li><a class="dropdown-item <?=$title=='Daily Horoscope'?'active':''?>" href="https://www.askangelblessing.com/angel/daily-horoscope">Daily Horoscope</a></li>
+            <li ><a class="dropdown-item" href="https://www.askangelblessing.com/12-chinese-zodiac-signs/">12 Chinese Zodiac Signs</a></li>
+          </ul>
+        </li> 
+
         <li class="nav-item <?=$title=='Crystal Ball Reading'?'active':''?>"><a class="nav-link" href="https://www.askangelblessing.com/angel/crystal-ball">Crystal Ball Reading</a></li>
       </ul>
     </nav>
@@ -139,6 +151,9 @@
             </li>
             <li class="nav-item <?=$title=='Daily Horoscope'?'active':''?>">
               <a class="nav-link" href="https://www.askangelblessing.com/angel/daily-horoscope">Daily Horoscope</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.askangelblessing.com/12-chinese-zodiac-signs/">12 Chinese Zodiac Signs</a>
             </li>
             <li class="nav-item <?=$title=='Crystal Ball Reading'?'active':''?>">
               <a class="nav-link" href="https://www.askangelblessing.com/angel/crystal-ball">Crystal Ball Reading</a>
