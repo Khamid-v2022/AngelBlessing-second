@@ -18,6 +18,7 @@
                 <div class="text-center text-white">
                     <h1>Pick A Question And Find Out The Answer</h1>
                 </div>
+
                 <div class="">
                     <form id="quiz-form">
                         <div class="row d-flex align-items-center justify-content-center my-5">
@@ -133,6 +134,32 @@
                             </div>  
                         </div>
                     </form>
+                </div>
+
+                <div class="mt-5 text-white">
+                    <h1 class="mb-3 text-center">Love Status: Understanding the Different Phases of Love</h1>
+                    <p>Love is a complex and ever-changing emotion that can take on various forms and manifestations. Throughout our lives, we may experience different love statuses, each carrying its unique combination of emotions, expectations, and challenges. Whether you're in the midst of a passionate romance or recovering from a heartbreak, understanding the different love statuses can help make sense of your feelings and experiences.</p>
+                    <ul style="list-style-type: number;">
+                        <li><strong>Infatuation:</strong><br>
+                            This love status is commonly associated with the early stages of a relationship. It's characterized by intense feelings of attraction, excitement, and idealization. Infatuation tends to be fueled by physical chemistry and can feel euphoric and all-consuming. However, it often lacks deep emotional connection and may fade over time.
+                        </li>
+                        <li><strong>Romantic Love:</strong><br>
+                            Romantic love develops when infatuation transitions into a more stable and mature phase. This love status is marked by emotional intimacy, companionship, and shared interests. Romantic love is founded on mutual respect, trust, and communication. It involves commitment and the desire to build a long-term partnership.
+                        </li>
+                        <li><strong>Unrequited Love:</strong><br>
+                            Unrequited love occurs when one person has intense feelings for another who does not reciprocate those feelings. It can be painful, leaving the individual with a sense of longing and rejection. Dealing with unrequited love involves acceptance and finding ways to move forward, often by focusing on personal growth and opening oneself up to new possibilities.
+                        </li>
+                        <li><strong>Long-Distance Love:</strong><br>
+                            Long-distance love occurs when two people are physically separated due to various circumstances. It requires trust, effective communication, and a strong emotional foundation. Although distance can be challenging, maintaining an open and honest connection can help strengthen the bond and keep the love alive.
+                        </li>
+                        <li><strong>Platonic Love:</strong><br>
+                            Platonic love refers to deep and affectionate relationships that are non-sexual in nature. It is often seen between close friends or family members, where emotions of love, care, and support are present without any romantic or sexual involvement. Platonic love can be just as fulfilling and meaningful as romantic love.
+                        </li>
+                        <li><strong>Self-Love:</strong><br>
+                            Self-love is an essential love status that involves developing a healthy relationship with oneself. It entails self-acceptance, self-care, and prioritizing one's own well-being. Self-love is crucial for building healthy relationships with others and maintaining a positive mindset.
+                        </li>
+                    </ul>
+                    <p>Understanding the different love statuses can help us navigate the complexities of relationships. Whether experiencing the initial rush of infatuation or basking in the long-term comfort of romantic love, embracing the various phases can lead to personal growth, fulfillment, and meaningful connections.</p>
                 </div>
 
                 <div class="google-ads-place">
