@@ -16,7 +16,9 @@ body {
     font-weight: normal;
     src: local('Dancing Script Bold'), url('DancingScript-Bold.woff') format('woff');
 }
-
+.max-1000 {
+    max-width: 1000px;
+}
 /* Nav bar Menu */
 .navbar-nav .dropdown-menu {
     position: absolute;
