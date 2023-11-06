@@ -758,13 +758,55 @@ a.horoscope-btn:hover .horoscope-icon{
 }
 
 /* angelic symbols page */
+
+
 .angelic-symbols .card-wrapper {
-    max-width: 800px;
     margin: 20px auto;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding: 3rem 9rem 3rem 0rem;
+    min-height: 700px;
 }
-.angelic-symbols .symbol-card-item img {
-    width: 100%;
+
+.angelic-symbols .symbol-card-item {
+    position: relative;
+    height: fit-content;
+}
+
+.symbol-card-item-0, .symbol-card-item-6 {
+    margin-top: 300px;
+}
+.symbol-card-item-1, .symbol-card-item-5 {
+    margin-top: 200px;
+}
+.symbol-card-item-2, .symbol-card-item-4 {
+    margin-top: 100px;
+}
+
+.symbol-card-item img {
+    width: fit-content;
+    max-width: 200px;
     transition: all .2s ease-in-out;
+    position: absolute;
+}
+
+@media (max-width: 768px){
+    .symbol-card-item img {
+        max-width: 150px;
+    }
+    .angelic-symbols .card-wrapper {
+        min-height: 600px;
+    }
+}
+
+@media (max-width: 576px){
+    .symbol-card-item img {
+        max-width: 100px;
+    }
+    .angelic-symbols .card-wrapper {
+        min-height: 500px;
+    }
 }
 
 .angelic-symbols .symbol-card-item img:hover {
