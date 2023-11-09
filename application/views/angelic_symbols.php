@@ -20,13 +20,18 @@
             <section class="text-center mt-5">
                 <h3>12 Spiritual Angelic Symbolism.</h3>
                 <h4>Reveal Your Answer Today!</h4>
-                <div class="card-wrapper">
-                    <?php for($index = 0; $index < 7; $index++) { ?>
-                    <a class="symbol-card-item symbol-card-item-<?=$index?>" href="javascript:;">
-                        <img src="<?=base_url()?>assets/img/angelicsymbolism-card.png" alt="" loading="lazy">
-                    </a>
-                    <?php } ?> 
-                </div>
+                <?php 
+                for($index = 0; $index < 3; $index++) { ?>
+                    <div class="row card-wrapper">
+                        <?php for($i = 0; $i < 4; $i++) { ?>
+                            <div class="col mt-3">
+                                <a class="symbol-card-item" href="javascript:;">
+                                    <img src="<?=base_url()?>assets/img/angelicsymbolism-card.png" alt="" loading="lazy">
+                                </a>
+                            </div>
+                        <?php } ?>              
+                    </div>
+                <?php } ?>
             </section>
 
             <div class="mt-5">
