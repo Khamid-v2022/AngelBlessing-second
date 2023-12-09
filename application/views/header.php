@@ -52,6 +52,7 @@
           || $title=='Contact with Angels Using Essential Oils'
           || $title=='Choose Your Methods To Connecting With Your Angels Today'
           || $title=='Discover Your Stories of Angels' 
+          || $title=='Choose Your Aura Color Today' 
           ? 'active':''?>
         ">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -70,6 +71,8 @@
             <li ><a class="dropdown-item <?=$title=='Contact with Angels Using Essential Oils'?'active':''?>" href="https://askangelblessing.com/angel/essential-oils">Angelic Essential Oils</a></li>
             <li ><a class="dropdown-item <?=$title=='Choose Your Methods To Connecting With Your Angels Today'?'active':''?>" href="https://askangelblessing.com/angel/connecting-angels">Connecting With Angels</a></li>
             <li ><a class="dropdown-item <?=$title=='Discover Your Stories of Angels'?'active':''?>" href="https://askangelblessing.com/angel/story-angel">Stories of Angels</a></li>
+            <li ><a class="dropdown-item <?=$title=='Choose Your Aura Color Today'?'active':''?>" href="https://askangelblessing.com/angel/aura-color">Aura Color</a></li>
+            
           </ul>
         </li>    
 
@@ -142,6 +145,9 @@
             </li>
             <li class="nav-item <?=$title=='Discover Your Stories of Angels'?'active':''?>">
               <a class="nav-link" href="https://askangelblessing.com/angel/story-angel">Stories of Angels</a>
+            </li>
+            <li class="nav-item <?=$title=='Choose Your Aura Color Today'?'active':''?>">
+              <a class="nav-link" href="https://askangelblessing.com/angel/aura-color">Aura Color</a>
             </li>
             <li class="nav-item <?=$title=='Get Your Romantic Advise Now'?'active':''?>">
               <a class="nav-link" href="https://www.askangelblessing.com/angel/LoveQuiz">Your Love Status</a>

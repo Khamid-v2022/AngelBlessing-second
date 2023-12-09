@@ -73,4 +73,11 @@ $(function() {
         var _url = site_url + "AngelicSymbols/random_article";
         location.href = _url;
     })
+
+    $(".aura-color-category").on("click", function(){
+        let category_name = $(this).attr("data-catetory_name");
+        category_name = category_name.replaceAll(' ', '-2-');
+        var _url = site_url + "AuraColor/random_article/" + category_name;
+        location.href = _url;
+    })
 });
