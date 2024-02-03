@@ -80,4 +80,9 @@ $(function() {
         var _url = site_url + "AuraColor/random_article/" + category_name;
         location.href = _url;
     })
+
+    $(".soulmate-page .main-img").on("click", function(){
+        var _url = site_url + "SoulmateController/random_article";
+        location.href = _url;
+    })
 });

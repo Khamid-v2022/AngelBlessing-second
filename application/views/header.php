@@ -76,17 +76,31 @@
           </ul>
         </li>    
 
-        <li class="nav-item <?=$title=='Get Your Romantic Advise Now'?'active':''?>"><a  class="nav-link" href="https://www.askangelblessing.com/angel/love-quiz">Your Love Status</a></li>
+        <!-- <li class="nav-item <?=$title=='Get Your Romantic Advise Now'?'active':''?>"><a  class="nav-link" href="https://www.askangelblessing.com/angel/love-quiz">Your Love Status</a></li> -->
+
+        <li class="nav-item dropdown <?=$title=='Get Your Romantic Advise Now' ||
+        $title=='Find Your Next Soulmate'
+        ? 'active':''?>">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Your Love Status
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown3">
+            <li><a class="dropdown-item <?=$title=='Get Your Romantic Advise Now'?'active':''?>" href="https://www.askangelblessing.com/angel/love-quiz">Your Love Status</a></li>
+            <li><a class="dropdown-item <?=$title=='Find Your Next Soulmate' ? 'active':''?>" href="https://www.askangelblessing.com/angel/soulmates">Find Your Next Soulmate</a></li>
+          </ul>
+        </li> 
+
         <li class="nav-item"><a class="nav-link" href="https://www.askangelblessing.com/fortune-cookie">Fortune Cookie</a></li>
 
-        <!-- <li class="nav-item <?=$title=='Daily Horoscope'?'active':''?>"><a class="nav-link" href="https://www.askangelblessing.com/angel/daily-horoscope">Daily Horoscope</a></li> -->
-
-        <li class="nav-item dropdown <?=$title=='Daily Horoscope' ? 'active':''?>">
+        <li class="nav-item dropdown <?=$title=='Daily Horoscope' 
+        || $title=='Five Element Reading'
+        ? 'active':''?>">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Daily Horoscope
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown3">
             <li><a class="dropdown-item <?=$title=='Daily Horoscope'?'active':''?>" href="https://www.askangelblessing.com/angel/daily-horoscope">Daily Horoscope</a></li>
+            <li><a class="dropdown-item <?=$title=='Five Element Reading'?'active':''?>" href="https://www.askangelblessing.com/angel/five-element">Five Elements Reading</a></li>
             <li ><a class="dropdown-item" href="https://www.askangelblessing.com/12-chinese-zodiac-signs/">12 Chinese Zodiac Signs</a></li>
           </ul>
         </li> 
@@ -152,11 +166,17 @@
             <li class="nav-item <?=$title=='Get Your Romantic Advise Now'?'active':''?>">
               <a class="nav-link" href="https://www.askangelblessing.com/angel/LoveQuiz">Your Love Status</a>
             </li>
+             <li class="nav-item <?=$title=='Find Your Next Soulmate'?'active':''?>">
+              <a class="nav-link" href="https://www.askangelblessing.com/angel/soulmates">Find Your Next Soulmate</a>
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="https://www.askangelblessing.com/fortune-cookie">Fortune Cookie</a>
             </li>
             <li class="nav-item <?=$title=='Daily Horoscope'?'active':''?>">
               <a class="nav-link" href="https://www.askangelblessing.com/angel/daily-horoscope">Daily Horoscope</a>
+            </li>
+            <li class="nav-item <?=$title=='Five Element Reading'?'active':''?>">
+              <a class="nav-link" href="https://www.askangelblessing.com/angel/five-element">Five Elements Reading</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="https://www.askangelblessing.com/12-chinese-zodiac-signs/">12 Chinese Zodiac Signs</a>
