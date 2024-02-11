@@ -90,7 +90,16 @@
           </ul>
         </li> 
 
-        <li class="nav-item"><a class="nav-link" href="https://www.askangelblessing.com/fortune-cookie">Fortune Cookie</a></li>
+        <li class="nav-item dropdown <?=$title=='Choose Your Fortune Cookie For The Day'
+        ? 'active':''?>">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Fortune Cookie
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown3">
+            <li><a class="dropdown-item" href="https://www.askangelblessing.com/fortune-cookie">Fortune Cookie</a></li>
+            <li><a class="dropdown-item <?=$title=='Choose Your Fortune Cookie For The Day' ? 'active':''?>" href="https://www.askangelblessing.com/angel/fortune-cookie-message">Fortune Cookie Message</a></li>
+          </ul>
+        </li> 
 
         <li class="nav-item dropdown <?=$title=='Daily Horoscope' 
         || $title=='Five Element Reading'
@@ -166,11 +175,14 @@
             <li class="nav-item <?=$title=='Get Your Romantic Advise Now'?'active':''?>">
               <a class="nav-link" href="https://www.askangelblessing.com/angel/LoveQuiz">Your Love Status</a>
             </li>
-             <li class="nav-item <?=$title=='Find Your Next Soulmate'?'active':''?>">
+            <li class="nav-item <?=$title=='Find Your Next Soulmate'?'active':''?>">
               <a class="nav-link" href="https://www.askangelblessing.com/angel/soulmates">Find Your Next Soulmate</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="https://www.askangelblessing.com/fortune-cookie">Fortune Cookie</a>
+            </li>
+            <li class="nav-item <?=$title=='Choose Your Fortune Cookie For The Day'?'active':''?>">
+              <a class="nav-link" href="https://www.askangelblessing.com/angel/fortune-cookie-message">Fortune Cookie Message</a>
             </li>
             <li class="nav-item <?=$title=='Daily Horoscope'?'active':''?>">
               <a class="nav-link" href="https://www.askangelblessing.com/angel/daily-horoscope">Daily Horoscope</a>

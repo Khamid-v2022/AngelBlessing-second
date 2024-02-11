@@ -85,4 +85,10 @@ $(function() {
         var _url = site_url + "SoulmateController/random_article";
         location.href = _url;
     })
+
+    $(".fortune-cookie-btn").on("click", function(){
+        console.log("clicked");
+        var _url = site_url + "FortuneCookieMessage/random_article";
+        location.href = _url;
+    })
 });

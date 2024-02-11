@@ -984,3 +984,14 @@ img.five-element-item.five-element-fire {
 .soulmate-page .main-img:hover {
     transform: scale(1.2);
 }
+
+
+/* Fortune Cookie page */
+.fortune-cookie-page .fortune-cookie-btn img {
+    transition: all .2s ease-in-out;
+    width: 100%;
+}
+
+.fortune-cookie-page .fortune-cookie-btn:hover img{
+    transform: scale(1.2);
+}
