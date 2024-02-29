@@ -111,6 +111,7 @@
             <li><a class="dropdown-item <?=$title=='Daily Horoscope'?'active':''?>" href="https://www.askangelblessing.com/angel/daily-horoscope">Daily Horoscope</a></li>
             <li><a class="dropdown-item <?=$title=='Five Element Reading'?'active':''?>" href="https://www.askangelblessing.com/angel/five-element">Five Elements Reading</a></li>
             <li ><a class="dropdown-item" href="https://www.askangelblessing.com/12-chinese-zodiac-signs/">12 Chinese Zodiac Signs</a></li>
+            <li ><a class="dropdown-item" href="https://www.askangelblessing.com/coffee-cup-reading/">Coffee Cup Reading For The Day</a></li>
           </ul>
         </li> 
 
@@ -192,6 +193,9 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="https://www.askangelblessing.com/12-chinese-zodiac-signs/">12 Chinese Zodiac Signs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.askangelblessing.com/coffee-cup-reading/">Coffee Cup Reading For The Day</a>
             </li>
             <li class="nav-item <?=$title=='Crystal Ball Reading'?'active':''?>">
               <a class="nav-link" href="https://www.askangelblessing.com/angel/crystal-ball">Crystal Ball Reading</a>

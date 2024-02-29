@@ -37,12 +37,11 @@
             </section>
         
             <div class="google-ads-place">
-                <ins class="adsbygoogle"
+               <ins class="adsbygoogle"
                      style="display:block"
+                     data-ad-format="autorelaxed"
                      data-ad-client="ca-pub-6130278165783644"
-                     data-ad-slot="6432366191"
-                     data-ad-format="auto"
-                     data-full-width-responsive="true"></ins>
+                     data-ad-slot="3806202855"></ins>
                 <script>
                      (adsbygoogle = window.adsbygoogle || []).push({});
                 </script>
