@@ -765,12 +765,26 @@ a.horoscope-btn:hover .horoscope-icon{
     margin: 20px auto;
 }
 
+.coffe-cup-page .card-wrapper {
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
 .symbol-card-item img {
     width: 100%;
     transition: all .2s ease-in-out;
 }
 
+.coffe-cup-item img {
+    width: 100%;
+    transition: all .2s ease-in-out;
+}
+
 .angelic-symbols .symbol-card-item img:hover {
+   transform: scale(1.1);
+}
+
+.coffe-cup-page .coffe-cup-item img:hover {
    transform: scale(1.1);
 }
 
