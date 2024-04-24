@@ -22,7 +22,7 @@ body {
 /* Nav bar Menu */
 .navbar-nav .dropdown-menu {
     position: absolute;
-    width: 100%;
+    min-width: 100%;
 }
 .nav-link {
     padding: 0;

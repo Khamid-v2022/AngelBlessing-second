@@ -102,7 +102,8 @@
         </li> 
 
         <li class="nav-item dropdown <?=$title=='Daily Horoscope' 
-        || $title=='Five Element Reading'
+        || $title=='Five Element Reading' 
+        || $title=='Coffee Cup Reading For Letters'
         ? 'active':''?>">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Daily Horoscope
@@ -111,9 +112,10 @@
             <li><a class="dropdown-item <?=$title=='Daily Horoscope'?'active':''?>" href="https://www.askangelblessing.com/angel/daily-horoscope">Daily Horoscope</a></li>
             <li><a class="dropdown-item <?=$title=='Five Element Reading'?'active':''?>" href="https://www.askangelblessing.com/angel/five-element">Five Elements Reading</a></li>
             <li ><a class="dropdown-item" href="https://www.askangelblessing.com/12-chinese-zodiac-signs/">12 Chinese Zodiac Signs</a></li>
-            <li ><a class="dropdown-item" href="https://www.askangelblessing.com/angel/coffee-cup-reading/">Coffee Cup Reading For The Day</a></li>
-          </ul>
-        </li> 
+            <li><a class="dropdown-item" href="https://www.askangelblessing.com/coffee-cup-reading-for-numbers/">Coffee Cup Reading For Numbers</a></li>
+            <li><a class="dropdown-item" href="https://www.askangelblessing.com/angel/coffee-cup-reading-for-letters/">Coffee Cup Reading For Letters</a></li>
+            <li><a class="dropdown-item" href="https://www.askangelblessing.com/moon-cycle-reading/">Moon Cycle Reading</a></li>
+        </ul>
 
         <li class="nav-item <?=$title=='Crystal Ball Reading'?'active':''?>"><a class="nav-link" href="https://www.askangelblessing.com/angel/crystal-ball">Crystal Ball Reading</a></li>
       </ul>
