@@ -72,7 +72,7 @@
             <li ><a class="dropdown-item <?=$title=='Choose Your Methods To Connecting With Your Angels Today'?'active':''?>" href="https://askangelblessing.com/angel/connecting-angels">Connecting With Angels</a></li>
             <li ><a class="dropdown-item <?=$title=='Discover Your Stories of Angels'?'active':''?>" href="https://askangelblessing.com/angel/story-angel">Stories of Angels</a></li>
             <li ><a class="dropdown-item <?=$title=='Choose Your Aura Color Today'?'active':''?>" href="https://askangelblessing.com/angel/aura-color">Aura Color</a></li>
-            
+            <li><a class="dropdown-item" href="https://www.askangelblessing.com/angelic-protection-gemstones/">Angelic Protection Gemstones</a></li>
           </ul>
         </li>    
 
@@ -111,10 +111,12 @@
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown3">
             <li><a class="dropdown-item <?=$title=='Daily Horoscope'?'active':''?>" href="https://www.askangelblessing.com/angel/daily-horoscope">Daily Horoscope</a></li>
             <li><a class="dropdown-item <?=$title=='Five Element Reading'?'active':''?>" href="https://www.askangelblessing.com/angel/five-element">Five Elements Reading</a></li>
-            <li ><a class="dropdown-item" href="https://www.askangelblessing.com/12-chinese-zodiac-signs/">12 Chinese Zodiac Signs</a></li>
+            <li><a class="dropdown-item" href="https://www.askangelblessing.com/12-chinese-zodiac-signs/">12 Chinese Zodiac Signs</a></li>
             <li><a class="dropdown-item" href="https://www.askangelblessing.com/coffee-cup-reading-for-numbers/">Coffee Cup Reading For Numbers</a></li>
-            <li><a class="dropdown-item" href="https://www.askangelblessing.com/angel/coffee-cup-reading-for-letters/">Coffee Cup Reading For Letters</a></li>
+            <li><a class="dropdown-item <?=$title=='Coffee Cup Reading For Letters'?'active':''?>" href="https://www.askangelblessing.com/angel/coffee-cup-reading-for-letters/">Coffee Cup Reading For Letters</a></li>
             <li><a class="dropdown-item" href="https://www.askangelblessing.com/moon-cycle-reading/">Moon Cycle Reading</a></li>
+            <li><a class="dropdown-item" href="https://www.askangelblessing.com/your-tea-leaf-reading/">Your Tea Leaf Reading</a></li>
+            <li><a class="dropdown-item" href="https://www.askangelblessing.com/coffee-cup-reading-for-animals/">Coffee Cup Reading For Animals</a></li>
         </ul>
 
         <li class="nav-item <?=$title=='Crystal Ball Reading'?'active':''?>"><a class="nav-link" href="https://www.askangelblessing.com/angel/crystal-ball">Crystal Ball Reading</a></li>
@@ -175,6 +177,9 @@
             <li class="nav-item <?=$title=='Choose Your Aura Color Today'?'active':''?>">
               <a class="nav-link" href="https://askangelblessing.com/angel/aura-color">Aura Color</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.askangelblessing.com/angelic-protection-gemstones/">Angelic Protection Gemstones</a>
+            </li>
             <li class="nav-item <?=$title=='Get Your Romantic Advise Now'?'active':''?>">
               <a class="nav-link" href="https://www.askangelblessing.com/angel/LoveQuiz">Your Love Status</a>
             </li>
@@ -196,9 +201,11 @@
             <li class="nav-item">
               <a class="nav-link" href="https://www.askangelblessing.com/12-chinese-zodiac-signs/">12 Chinese Zodiac Signs</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://www.askangelblessing.com/angel/coffee-cup-reading/">Coffee Cup Reading For The Day</a>
-            </li>
+            <li class="nav-item"><a class="nav-link" href="https://www.askangelblessing.com/coffee-cup-reading-for-numbers/">Coffee Cup Reading For Numbers</a></li>
+            <li class="nav-item <?=$title=='Coffee Cup Reading For Letters'?'active':''?>"><a class="nav-link" href="https://www.askangelblessing.com/angel/coffee-cup-reading-for-letters/">Coffee Cup Reading For Letters</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://www.askangelblessing.com/moon-cycle-reading/">Moon Cycle Reading</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://www.askangelblessing.com/your-tea-leaf-reading/">Your Tea Leaf Reading</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://www.askangelblessing.com/coffee-cup-reading-for-animals/">Coffee Cup Reading For Animals</a></li>
             <li class="nav-item <?=$title=='Crystal Ball Reading'?'active':''?>">
               <a class="nav-link" href="https://www.askangelblessing.com/angel/crystal-ball">Crystal Ball Reading</a>
             </li>
